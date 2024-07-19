@@ -1,0 +1,111 @@
+.table-c {
+  height: 500px;
+  border-radius: 30px;
+  overflow-y: scroll;
+  margin-right: 200px;
+  padding-top: 20px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: linear-gradient(92.61deg, #A78295 -0.37%, rgba(167, 130, 149, 0) 97.57%);
+  -webkit-text-fill-color: whitesmoke;
+  border-radius: 30px;
+  position: relative;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #34033a;
+  padding-left: 60px;
+}
+
+.custom-table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.table-c::-webkit-scrollbar {
+  width: 4px;
+  background-color: #C85083;
+}
+
+.table-c::-webkit-scrollbar-thumb {
+  background-color: #C85083;
+  border: 4px solid #C85083;
+}
+
+.table-c::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+  border: 6px solid #FFFFFF;
+}
+
+.ptitle {
+  position: relative;
+  width: 198px;
+  height: 67px;
+  top: -20px;
+  left: 30px;
+}
+
+.ptitle p {
+  color: #281637;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.ptitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #42224C 2.25%, #A78295 100%);
+  // filter: blur(0px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  clip-path: path("M4.5 29.5C4.5 13.2076 17.7076 0 34 0H134.5C142.86 0 147.04 0 150.545 0.498817C172.565 3.6327 189.867 20.9351 193.001 42.9549C193.5 46.4598 193.5 50.6399 193.5 59V59H34C17.7076 59 4.5 45.7924 4.5 29.5V29.5Z");
+}
+
+.Ttitle {
+  position: absolute;
+  width: 224px;
+  height: 67px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  margin-top: -20px;
+}
+
+.Ttitle p {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.clip-path1::before,
+.clip-path2::before,
+.clip-path3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #42224C 0%, #C85083 97.25%);
+}
+
+.clip-path1::before {
+  clip-path: path("M161 60H34C17.4315 60 4 46.5685 4 30C4 13.4315 17.4315 3.8147e-06 34 3.8147e-06H111C138.614 3.8147e-06 161 22.3858 161 50V60Z");
+}
+
+.clip-path2::before {
+  clip-path: path("M222 60H34C17.4315 60 4 46.5685 4 30C4 13.4315 17.4315 3.8147e-06 34 3.8147e-06H172C199.614 3.8147e-06 222 22.3858 222 50V60Z");
+}
+
+.clip-path3::before {
+  clip-path: path("M222 60H34C17.4315 60 4 46.5685 4 30C4 13.4315 17.4315 3.8147e-06 34 3.8147e-06H172C199.614 3.8147e-06 222 22.3858 222 50V60Z");
+}

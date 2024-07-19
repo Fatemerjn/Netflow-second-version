@@ -1,0 +1,93 @@
+.auth-container {
+  margin: 100px 0;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #c85083, #a78295);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  color: transparent;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.quick-login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.separator {
+  padding: 10px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 25px;
+}
+
+.email-label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  transition: 0.3 ease all;
+}
+.password-label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  transition: 0.3 ease all;
+}
+
+input {
+  height: 22px;
+  background-color: transparent;
+  color: white;
+  font-size: 22px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid white; /* Add a blue border when focused */
+}
+
+#email-field:focus + label,
+#email-field:valid + label {
+  position: absolute;
+  top: 0px;
+}
+
+#password-field:focus + label,
+#password-field:valid + label {
+  position: absolute;
+  top: 0px;
+}
+
+.sub-form-text {
+  text-align: center;
+  margin: 25px;
+}
+
+span a {
+  text-decoration: none;
+  color: #a78295;
+}
+
+.bottom-link {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #c85083;
+}

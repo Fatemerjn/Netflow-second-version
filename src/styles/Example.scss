@@ -1,0 +1,42 @@
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+
+    .slide {
+        position: absolute;
+        margin-left: 20%;
+        width: 15%;
+        height: 100%;
+        cursor: pointer;
+        transition: left 0.5s ease, transform 0.5s ease;
+        clip-path: inset(0px 4px 5px 4px); // Add clip-path here
+        border-radius: 37px;
+    }
+    .arrow {
+        left: 100px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 24px; // Adjust font size for visibility
+        color: #333; // Arrow color
+        user-select: none; // Prevent text selection
+        padding: 10px; // Padding for larger clickable area
+        border-radius: 50%; // Circular shape
+        color: #A78295;
+
+        &:hover {
+            color: #bf2d79; // Darker color on hover
+        }
+
+        &.left-arrow {
+            left: 10px; // Adjust as necessary
+        }
+
+        &.right-arrow {
+            right: 10px; // Adjust as necessary
+        }
+    }
+}

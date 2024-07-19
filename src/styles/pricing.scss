@@ -1,0 +1,83 @@
+.container {
+  position: relative;
+  width: 1043px;
+  height: 441px;
+  left: -15px;
+  display: flex;
+}
+.pic-pricing-type {
+  width: 85%;
+  position: relative;
+  left: 100px;
+}
+
+.pricing-type {
+  display: flex;
+  padding-bottom: 7px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90.19deg, #C85083 0.16%, rgba(200, 80, 131, 0) 99.84%);
+}
+
+.table-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.table {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  width: 1023px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Ttitle {
+  position: absolute;
+  width: 224px;
+  height: 67px;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  margin-top: 230px;
+}
+
+.Ttitle p {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.clip-path1::before,
+.clip-path2::before,
+.clip-path3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #42224C 0%, #C85083 97.25%);
+}
+
+.clip-path1::before {
+  clip-path: path("M161 60H34C17.4315 60 4 46.5685 4 30C4 13.4315 17.4315 3.8147e-06 34 3.8147e-06H111C138.614 3.8147e-06 161 22.3858 161 50V60Z");
+}
+
+.clip-path2::before {
+  clip-path: path("M222 60H34C17.4315 60 4 46.5685 4 30C4 13.4315 17.4315 3.8147e-06 34 3.8147e-06H172C199.614 3.8147e-06 222 22.3858 222 50V60Z");
+}
+
+.clip-path3::before {
+  clip-path: path("M222 60H34C17.4315 60 4 46.5685 4 30C4 13.4315 17.4315 3.8147e-06 34 3.8147e-06H172C199.614 3.8147e-06 222 22.3858 222 50V60Z");
+}

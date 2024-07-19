@@ -1,0 +1,17 @@
+.auth-container {
+  display: grid;
+  place-content: center;
+}
+
+.title {
+  background-image: linear-gradient(to bottom, #c85083, #a78295);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  color: transparent;
+}
+
+.title h1 {
+  margin: 0;
+}

@@ -1,0 +1,91 @@
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px 100px;
+  color: white;
+}
+
+.sub-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+}
+
+.section-1 .title {
+  text-align: center;
+  letter-spacing: 20px;
+  background-image: linear-gradient(to bottom, #c85083, #a78295);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  color: transparent;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.sub-title {
+  text-align: justify;
+  width: 80%;
+  margin: 20px 60px;
+  font-size: 20px;
+}
+
+.image-container {
+  display: flex;
+  place-content: center;
+}
+
+.image-container > img {
+  animation: 2500ms ease-in infinite alternate float;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+@keyframes float {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(-25px);
+  }
+}
+
+// Section 2
+
+.prompt-container {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    90deg,
+    #c85083 2.19%,
+    rgba(255, 255, 255, 0) 97.25%
+  );
+}
+
+#normal-prompt,
+#super-prompt {
+  background: #3d2048;
+  height: auto;
+  border: 3px solid #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 3rem;
+  outline: none;
+}
+
+#normal-prompt::placeholder,
+#super-prompt::placeholder {
+  display: flex;
+  align-items: flex-start;
+  color: #ffffff;
+}

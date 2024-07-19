@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  // min-height: 100vh;
+  flex-grow: 4;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #180f2a, #42224c);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.gabby {
+  font-family: Gabriela;
+}

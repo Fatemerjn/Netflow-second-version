@@ -1,0 +1,93 @@
+.ptitle {
+    position: relative;
+    width: 198px;
+    height: 67px;
+    top: -20px;
+    left: 30px;
+}
+
+.ptitle p {
+    color: #281637;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ptitle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, #42224C 2.25%, #A78295 100%);
+    // filter: blur(0px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    clip-path: path("M4.5 29.5C4.5 13.2076 17.7076 0 34 0H134.5C142.86 0 147.04 0 150.545 0.498817C172.565 3.6327 189.867 20.9351 193.001 42.9549C193.5 46.4598 193.5 50.6399 193.5 59V59H34C17.7076 59 4.5 45.7924 4.5 29.5V29.5Z");
+}
+
+p {
+    width: 184px;
+    font-family: Inter;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.innerBox p {
+    color: #281637;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content {
+    width: 244px;
+    height: 99px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 35px;
+    top: 42%;
+}
+
+.Box {
+    width: 265px;
+    height: 438px;
+    position: absolute;
+    border-radius: 25px;
+    margin-right: 55px;
+    background: #D9D9D933;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    top: -7px;
+    left: 147.5px;
+    position: relative;
+    /* Other styles */
+
+    /* Transition properties for smooth animation */
+    transition: top 0.3s ease;
+}
+
+.Box:hover {
+    top: -12px;
+    /* Move the div up by 12px on hover */
+}
+
+.Box:not(:hover) {
+    top: 0;
+    /* Reset the position when not hovered */
+}
+
+.pricing-type .innerBox {
+    width: 265px;
+    height: 115px;
+    background: #A78295;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    // filter: blur(1px);
+}
